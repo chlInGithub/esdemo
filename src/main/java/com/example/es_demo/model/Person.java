@@ -23,7 +23,10 @@ public class Person {
     @Field(name = "id")
     String id;
 
-    @Field(name = "name")
+    /**
+     * 通过Field配置索引分析器和搜索分析器
+     */
+    @Field(name = "name", type = FieldType.Text, analyzer = "", searchAnalyzer = "")
     String name;
 
     @Field(name = "age", type = FieldType.Integer)
