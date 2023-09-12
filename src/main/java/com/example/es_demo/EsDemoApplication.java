@@ -6,8 +6,8 @@ import org.springframework.data.elasticsearch.config.EnableElasticsearchAuditing
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @SpringBootApplication
-@EnableElasticsearchRepositories(basePackages = "com.example.es_demo.repository")
-@EnableElasticsearchAuditing
+//@EnableElasticsearchRepositories(basePackages = "com.example.es_demo.repository")
+//@EnableElasticsearchAuditing
 public class EsDemoApplication {
 
 	public static void main(String[] args) {

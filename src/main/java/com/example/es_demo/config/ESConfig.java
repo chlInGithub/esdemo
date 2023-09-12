@@ -12,7 +12,7 @@ import org.springframework.data.elasticsearch.client.RestClients;
 import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfiguration;
 import org.springframework.data.elasticsearch.core.convert.ElasticsearchCustomConversions;
 
-@Configuration
+//@Configuration
 public class ESConfig extends AbstractElasticsearchConfiguration {
 
     @Override
